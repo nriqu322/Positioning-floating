@@ -4,7 +4,38 @@ a {
 }
 nav {
   display: inline;
+  position: fixed;
+  z-index: 100;
+  background-color: aqua;
+  width: 100%;
+  display: inline-block;
+  padding: 5px 30px 5px 30px;
+  flex-direction: row;
+  margin-top: 0;
 }
 .nav-item {
   float: right;
+  padding-right: 80px;
+}
+
+.nyt-logo{
+  width: 10%;
+  height: 10%;
+  text-align: center;
+  padding-left: 30%;
+}
+
+.top-icons{
+  float: left;
+}
+.space-cosmos{
+  font-size: 1.2em;
+  width: 20%;
+}
+
+main {
+  background-color: blueviolet;
+  width: 100%;
+  height: 1000px; /*100px*/
+  padding-top: 65px;
 }
