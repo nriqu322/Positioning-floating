@@ -1,0 +1,10 @@
+/* start nav style */
+a {
+  text-decoration: none;
+}
+nav {
+  display: inline;
+}
+.nav-item {
+  float: right;
+}
