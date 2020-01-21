@@ -4,24 +4,7 @@ a {
   color: black;
 }
 
-/*nav {
-  display: inline;
-  position: fixed;
-  z-index: 100;
-  background-color: aqua;
-  width: 100%;
-  display: inline-block;
-  padding: 5px 30px 5px 30px;
-  flex-direction: row;
-  margin-top: 0;
-}
-
-.top-icons{
-  float: left;
-}*/
-
 nav {
-  /*float: right;*/
   padding-right: 60px;
   padding-left: 20px;
   border-bottom: 1px solid rgba(194, 194, 194, 0.644);
@@ -66,6 +49,10 @@ li {
   vertical-align: middle;
   font-family: "Times New Roman", Times, serif;
 }
+
+/* end nav style */
+
+/* start body style */
 
 body {
   margin: 0;
@@ -124,7 +111,7 @@ h1 {
   height: 30px;
   margin-left: 5px;
   position: relative;
-  bottom: 10px;
+  top: 4px;
 }
 
 #comments {
@@ -147,7 +134,6 @@ h1 {
 
 #info-top {
   width: 600px;
-  overflow: hidden;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -156,21 +142,19 @@ h1 {
 }
 
 .date-social-links {
-  display: inline;
   vertical-align: middle;
+  margin-bottom: 18px;
 }
 
 .links-media {
   float: right;
-  /*display: flex;
-  align-items: center;*/
   height: 15px;
 }
 
 #date-top {
   font-size: 13px;
   position: relative;
-  bottom: 2px;
+  top: 10px;
 }
 
 #article-writer {
@@ -309,3 +293,39 @@ p {
   display: inline;
   vertical-align: middle;
 }
+/* start recommended-section style */
+
+#recommended-container {
+ width: 830px;
+ height: 400px;
+}
+
+.recommended-img {
+  width: 250px;
+}
+
+.recommended-h3 {
+  width: 250px;
+  margin: 0;
+}
+
+.recommended-ul {
+  padding: 0;
+}
+
+.recommended-li {
+  vertical-align: top;
+  padding: 0 10px;
+}
+
+.recommended-source {
+  
+}
+/* end recommended-section style */
+
+/* end body style */
+
+
+/* start footer style */
+
+/* end footer style */
