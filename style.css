@@ -39,8 +39,7 @@ nav {
 }
 
 .nyt-logo {
-  width: 13%;
-  height: 13%;
+  width: 200px;
   position: relative;
   left: 45%;
 }
@@ -52,7 +51,6 @@ nav {
   border: #326891 1px solid;
   padding: 6px;
   color: white;
-
 }
 
 li {
@@ -172,7 +170,7 @@ h1 {
   margin-right: auto;
 }
 
-p{
+p {
   line-height: 1.875rem;
 }
 
@@ -198,3 +196,48 @@ p{
   width: inherit;
   height: 66px;
 }*/
+
+#inflation-top-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #666666;
+  width: 945px;
+  line-height: normal;
+}
+
+.inflation-theory-article {
+  width: 945px;
+  overflow: hidden;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#inflation-backg-image {
+  background-image: url(resources/background.png);
+  background-size: 935px;
+  width: 945px;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+#inflation-ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 250px;
+}
+
+.inflation-li {
+  display: inline-block;
+  width: 23%;
+  padding: 7px;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+#inflation-ul2 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 530px;
+}
