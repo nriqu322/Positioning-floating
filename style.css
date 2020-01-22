@@ -379,6 +379,11 @@ p {
 .recommended-editors-most-container {
   width: 1430px;
   margin: 0 auto;
+}
+
+footer {
+  clear: both;
+}
 /* end recommended-section style */
 
 /* end body style */
