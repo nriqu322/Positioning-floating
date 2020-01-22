@@ -12,20 +12,22 @@
 
 <body>
   <nav>
-    <ul>
-      <li class="top-icons">
-        <i class="material-icons">reorder</i>
-        <i class="material-icons">search</i>
+    <ul class="nav-ul-container">
+      <li class="nav-left">
+        <ul>
+          <li><i class="material-icons">reorder</i></li>
+          <li><i class="material-icons">search</i></li>
+          <li><span class="space-cosmos">SPACE & COSMOS</span></li>
+        </ul>
       </li>
-      <li>
-        <span class="space-cosmos">SPACE & COSMOS</span>
-      </li>
-      <li class="cont-img">
+      <li class="nav-center">
         <img src="resources/nyt_logo.png" alt="NYT-LOGO" class="nyt-logo" />
       </li>
-      <li id="btn">
-        <button class="nav-buttons">SUBSCRIBE NOW</button>
-        <button class="nav-buttons">LOG IN</button>
+      <li class="nav-right">
+        <ul>
+          <li><button class="nav-buttons">SUBSCRIBE NOW</button></li>
+          <li><button class="nav-buttons">LOG IN</button></li>
+        </ul>
       </li>
     </ul>
   </nav>
@@ -497,7 +499,8 @@
       </div>
     </aside>
 
-    <div id="recommended-container">
+  <div class="recommended-editors-most-container">
+    <div class="recommended-container">
       <a href="#">
         <h4>More in Space and Astronomy</h4>
       </a>
@@ -505,27 +508,106 @@
         <ul class="recommended-ul">
           <li class="recommended-li">
             <a href="#"><img class="recommended-img" src="resources/space-img.jpg">
-              <p class="fig-caption-source">Joe Rimkus/Reuters</p>
+              <p class="recommended-source">Joe Rimkus/Reuters</p>
               <h3 class="recommended-h3">SpacesX's Explosive Test May Launch Year of Renewed Human Spaceflight</h3>
             </a>
           </li>
           <li class="recommended-li">
             <a href="#"><img class="recommended-img" src="resources/vera-telescope.jpg">
+              <p class="recommended-source">ia Carnegie Institution of Washingtons</p>
               <h3 class="recommended-h3">Vera Rubin Gets a Telescope of Her Own</h3>
-            </a></li>
+            </a>
+          </li>
           <li class="recommended-li">
             <a href="#"><img class="recommended-img" src="resources/moon.jpg">
+              <p class="recommended-source">Mattias Malmer/NASA/JP</p>
               <h3 class="recommended-h3">A Billion Pixels And The Search For India's Crashed Moon Lander</h3>
+            </a>
+          </li>
+          <li class="recommended-li">
+            <a href="#"><img class="recommended-img" src="resources/volcanos.jpg">
+              <p class="recommended-source">Mattias Malmer/NASA/JPL</p>
+              <h3 class="recommended-h3">Volcanoes on Venus Might Still Be Smoking</h3>
+            </a>
+          </li>
+          <li class="recommended-li">
+            <a href="#"><img class="recommended-img" src="resources/rocket.jpg">
+              <p class="recommended-source">Dmitri Lovetsky/Associated Press</p>
+              <h3 class="recommended-h3">Rocket Launches, Trips to Mars and More 2020 Space and Astronomy Events</h3>
+            </a>
+          </li>
+          <li class="recommended-li">
+            <a href="#"><img class="recommended-img" src="resources/robot.jpg">
+              <p class="recommended-source">Kevin Peter Hand</p>
+              <h3 class="recommended-h3">This Robot’s Journey to an Icy Alien Moon Starts Beneath Antarctica</h3>
             </a>
           </li>
         </ul>
       </div>
-      <div>
 
+      <div class="editors-pick-container">
+        <a href="#">
+          <h4>Editor's Pick</h4>
+        </a>
+        <div class="recommended-links">
+          <ul class="recommended-ul">
+            <li class="recommended-li">
+              <a href="#"><img class="recommended-img" src="resources/ep1.jpg">
+                <p class="recommended-source">Sonny Figueroa/The New York Times</p>
+                <h3 class="recommended-h3">A Meticulous Account of Trump’s Tenure Reads Like a Comic Horror Story</h3>
+              </a>
+            </li>
+            <li class="recommended-li">
+              <a href="#"><img class="recommended-img" src="resources/ep2.jpg">
+                <p class="recommended-source">Nicholas Kamm/Agence France-Presse</p>
+                <h3 class="recommended-h3">Why Do Trump Supporters Support Trump?</h3>
+              </a>
+            </li>
+            <li class="recommended-li">
+              <a href="#"><img class="recommended-img" src="resources/ep3.jpg">
+                <p class="recommended-source">Larry Fink for The New York Times</p>
+                <h3 class="recommended-h3">Two Jurors Voted to Acquit. He Was Convicted of Murder Anyway.</h3>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div>
+    </div>
 
-      </div>
+      <aside class="most-popular-section">
+        <h4>Most Popular</h4>
+        <h5 class="most-popular-text">
+          Is Restaurant Noise a Crime? Our Critic Mounts a Ringing Defense
+        </h5>
+        <h5 class="most-popular-text">
+          Hillary Clinton Says ‘Nobody Likes’ Bernie Sanders and Declines to Commit to Backing Him
+        </h5>
+        <h5 class="most-popular-text">
+          21 Stories of People Who Walked Away
+        </h5>
+        <h5 class="most-popular-text">
+          The New Generation of Self-Created Utopias
+        </h5>
+        <h5 class="most-popular-text">
+          Opinion: Amy Klobuchar and Elizabeth Warren Are Democrats’ Best Choices for President
+        </h5>
+        <h5 class="most-popular-text">
+          Harvey Weinstein’s Dark Days
+        </h5>
+        <h5 class="most-popular-text">
+          Opinion: Biden, Sanders, Social Security and Smears
+        </h5>
+        <h5 class="most-popular-text">
+          ‘Constitutional Nonsense’: Trump’s Impeachment Defense Defies Legal Consensus
+        </h5>
+        <h5 class="most-popular-text">
+          My AirPods Fell Through a Subway Grate. Here’s How I Got Them Back.
+        </h5>
+        <h5 class="most-popular-text">
+          Caneel Bay: Why a Caribbean Paradise Remains in Ruins
+        </h5>
+        
+      </aside>
     </div>
 
   </main>

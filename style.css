@@ -1,4 +1,8 @@
 /* start nav style */
+* {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -13,6 +17,16 @@ nav {
   z-index: 100;
   right: 0;
   left: 0;
+  width: 100%;
+}
+
+.nav-ul-container {
+  margin: 0 auto;
+  width: 1700px;
+}
+
+.nav-left {
+  width: 30%;
 }
 
 .space-cosmos {
@@ -20,19 +34,18 @@ nav {
   font-weight: bold;
 }
 
-.cont-img {
+.nav-center {
   text-align: center;
-  width: 1300px;
+  width: 40%;
 }
 
 .nyt-logo {
   width: 200px;
-  /*position: relative;
-  left: 45%;*/
 }
 
-#btn {
+.nav-right {
   text-align: right;
+  width: 25%;
 }
 
 .nav-buttons {
@@ -56,7 +69,6 @@ li {
 
 body {
   margin: 0;
-  /*padding: 0 20px 20px 20px;*/
 }
 
 main {
@@ -111,7 +123,7 @@ h1 {
   height: 30px;
   margin-left: 5px;
   position: relative;
-  top: 4px;
+  bottom: 10px;
 }
 
 #comments {
@@ -170,6 +182,7 @@ h1 {
   margin-right: auto;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
+  padding-bottom: 15px;
 }
 
 p {
@@ -295,9 +308,12 @@ p {
 }
 /* start recommended-section style */
 
-#recommended-container {
- width: 830px;
- height: 400px;
+.recommended-container {
+  margin-top: 15px;
+  width: 60%;
+  height: 400px;
+  float: left;
+  border-top: black 1px solid;
 }
 
 .recommended-img {
@@ -315,16 +331,57 @@ p {
 
 .recommended-li {
   vertical-align: top;
-  padding: 0 10px;
+  padding: 5px 10px;
 }
 
 .recommended-source {
-  
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 10px;
+  color: #888888;
+  margin: 0;
+  text-align: right;
 }
+
+.recommended-h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: black;
+  margin: 0;
+}
+
+.editors-pick-container {
+  border-top: black 1px solid;
+  width: 100%;
+  height: 200px;
+  float: left;
+}
+
+.most-popular-section {
+  width: 35%;
+  height: 500px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /*padding-right: 40px;*/
+  margin-right: 20px;
+  float: right;
+  border-top: black 1px solid;
+  margin-top: 15px;
+}
+
+.most-popular-text {
+  border-top: #888888 1px solid;
+  padding-top: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.recommended-editors-most-container {
+  width: 1430px;
+  margin: 0 auto;
 /* end recommended-section style */
 
 /* end body style */
-
 
 /* start footer style */
 
