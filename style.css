@@ -492,7 +492,6 @@ footer a:hover {
 
 .left-fixed {
   display: block;
-
   font-size: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -504,7 +503,7 @@ footer a:hover {
 #expand {
   position: absolute;
   right: 13%;
-  top: 0px;
+  top: 0;
   font-weight: bold;
 }
 
