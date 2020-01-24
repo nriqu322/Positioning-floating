@@ -1,0 +1,514 @@
+/* start nav style */
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  padding-right: 60px;
+  padding-left: 20px;
+  border-bottom: 1px solid rgba(194, 194, 194, 0.644);
+  position: fixed;
+  background-color: white;
+  z-index: 100;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-ul-container {
+  margin: 0 auto;
+  width: 1330px;
+}
+
+.nav-left {
+  width: 30%;
+}
+
+.space-cosmos {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.nav-center {
+  text-align: center;
+  width: 40%;
+}
+
+.nyt-logo {
+  width: 200px;
+}
+
+.nav-right {
+  text-align: right;
+  width: 25%;
+}
+
+.nav-buttons {
+  border-radius: 0;
+  background-color: #567b95;
+  border-style: none;
+  border: #326891 1px solid;
+  padding: 6px;
+  color: white;
+}
+
+li {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* end nav style */
+
+/* start body style */
+
+body {
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  position: relative;
+  padding-top: 65px;
+  height: 10555px;
+  overflow: hidden;
+}
+
+.social-media {
+  width: 20px;
+  padding-left: 5px;
+}
+
+h1 {
+  font-size: 44px;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 470px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-top {
+  margin: auto 15%;
+  max-width: 1200px;
+  max-height: 725px;
+  position: relative;
+}
+
+#top-image {
+  width: 100%;
+}
+
+.fig-caption {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #666;
+}
+
+.fig-caption-source {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  color: #888;
+}
+
+.text-image {
+  width: 70%;
+}
+
+#bookmark {
+  background-image: url(resources/bookmark.png);
+  background-size: 20px;
+  width: 20px;
+  height: 30px;
+  margin-left: 5px;
+  position: relative;
+  bottom: 10px;
+}
+
+#comments {
+  background-image: url(resources/comment.png);
+  font-size: 8px;
+  background-size: 50px;
+  width: 35px;
+  height: 25px;
+  position: relative;
+  bottom: 7px;
+}
+
+.back-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  padding: 0;
+}
+
+#info-top {
+  width: 600px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.date-social-links {
+  vertical-align: middle;
+  margin-bottom: 18px;
+}
+
+.links-media {
+  float: right;
+  height: 15px;
+}
+
+#date-top {
+  font-size: 13px;
+  position: relative;
+  top: 10px;
+}
+
+#article-writer {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph-centered {
+  width: 600px;
+  overflow: hidden;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+p {
+  line-height: 1.875rem;
+}
+
+.editors-pick {
+  width: 200px;
+  position: absolute;
+  right: 100px;
+  bottom: 8150px;
+  height: 500px;
+}
+
+.img-editors-pick {
+  width: 40%;
+}
+
+.editors-pick h3 {
+  border-bottom: 1px solid #888;
+  padding-bottom: 7px;
+}
+
+.text-editors-pick {
+  width: 50%;
+  display: inline-block;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+#inflation-top-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #666;
+  width: 945px;
+  line-height: normal;
+}
+
+.inflation-theory-article {
+  width: 945px;
+  overflow: hidden;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#inflation-backg-image {
+  background-image: url(resources/background.png);
+  background-size: 935px;
+  width: 945px;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+#inflation-ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 250px;
+}
+
+.inflation-li {
+  display: inline-block;
+  width: 24.59%;
+  padding: 7px;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+#inflation-ul2 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 530px;
+}
+
+#inflation-footer-line {
+  border-top: black 1px solid;
+  padding: 10px 0 0 0;
+  margin-bottom: 5px;
+  width: 60px;
+}
+
+.inflation-footer-text {
+  padding: 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  line-height: normal;
+}
+
+.standford-video-text {
+  margin-right: 20px;
+}
+
+.bicep2-telescope {
+  width: 720px;
+  overflow: hidden;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bicep2-telescope-img {
+  width: 100%;
+}
+
+#reprint-text {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+#arcticle-down-button {
+  width: 300px;
+}
+
+.button-links-media {
+  display: inline;
+  vertical-align: middle;
+}
+
+/* start recommended-section style */
+
+.recommended-container {
+  margin-top: 15px;
+  width: 70%;
+  height: 400px;
+  float: left;
+  border-top: black 1px solid;
+}
+
+.recommended-img {
+  width: 285px;
+}
+
+.recommended-h3 {
+  width: 285px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: black;
+  margin: 0;
+}
+
+.recommended-ul {
+  padding: 0;
+}
+
+.recommended-li {
+  vertical-align: top;
+  padding: 5px 10px;
+}
+
+.recommended-source {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 10px;
+  color: #888;
+  margin: 0;
+  text-align: right;
+}
+
+.editors-pick-container {
+  border-top: black 1px solid;
+  width: 100%;
+  height: 200px;
+  float: left;
+}
+
+.most-popular-section {
+  width: 25%;
+  height: 500px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 20px;
+  float: right;
+  border-top: black 1px solid;
+  margin-top: 15px;
+}
+
+.most-popular-text {
+  border-top: #888 1px solid;
+  padding-top: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.recommended-editors-most-container {
+  width: 1330px;
+  margin: 0 auto;
+}
+
+/* end recommended-section style */
+
+/* end body style */
+
+/* start footer style */
+
+footer {
+  margin-top: 35px;
+  width: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #888;
+  border-top-style: double;
+  padding-top: 15px;
+  clear: both;
+}
+
+.navig-bottom {
+  clear: both;
+}
+
+#go-home {
+  float: right;
+}
+
+.navig-bottom-ul {
+  margin: 0;
+  padding: 0;
+}
+
+.extra-li {
+  display: inline-block;
+  width: 16%;
+  vertical-align: top;
+}
+
+.navig-bottom-ul li {
+  display: block;
+  line-height: 1.5rem;
+}
+
+ul {
+  padding: 0;
+}
+
+#subscribe-li {
+  border-left: 1px solid #afadadf5;
+  padding-left: 15px;
+}
+
+#subscribe-ul-first {
+  margin-bottom: 7px;
+}
+
+#subcribe-ul {
+  border-top: 1px solid #afadadf5;
+  padding-top: 10px;
+  margin-top: 2px;
+}
+
+.navig-bottom h4 {
+  margin: 0;
+}
+
+.navig-bottom-ul h3 {
+  margin: 0;
+  line-height: 40px;
+}
+
+#footer2-ul {
+  color: #666;
+}
+
+#footer2 li {
+  padding: 10px;
+  font-size: 13px;
+}
+
+#footer2 {
+  width: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #888;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#footer2 a:hover {
+  text-decoration: underline;
+}
+
+.fixed-signup {
+  margin-top: 200px;
+  background-color: #fff;
+  color: black;
+  position: fixed;
+  height: 60px;
+  padding-top: 0;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: right;
+  clear: both;
+  border-top: 1px solid  black;
+}
+
+.left-fixed {
+  display: block;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fixed-ul {
+  position: relative;
+}
+
+#expand {
+  position: absolute;
+  right: 13%;
+  top: 0;
+  font-weight: bold;
+}
+
+#access-more {
+  text-align: center;
+}
+
+/* end footer style */
