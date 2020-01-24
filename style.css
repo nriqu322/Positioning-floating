@@ -1,4 +1,5 @@
 /* start nav style */
+
 * {
   box-sizing: border-box;
 }
@@ -98,7 +99,6 @@ h1 {
   max-width: 1200px;
   max-height: 725px;
   position: relative;
-  /*left: 15%;*/
 }
 
 #top-image {
@@ -108,13 +108,13 @@ h1 {
 .fig-caption {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
-  color: #666666;
+  color: #666;
 }
 
 .fig-caption-source {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
-  color: #888888;
+  color: #888;
 }
 
 .text-image {
@@ -207,7 +207,7 @@ p {
 }
 
 .editors-pick h3 {
-  border-bottom: 1px solid #888888;
+  border-bottom: 1px solid #888;
   padding-bottom: 7px;
 }
 
@@ -221,7 +221,7 @@ p {
 #inflation-top-text {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
-  color: #666666;
+  color: #666;
   width: 945px;
   line-height: normal;
 }
@@ -241,6 +241,7 @@ p {
   height: 600px;
   background-repeat: no-repeat;
 }
+
 #inflation-ul {
   margin: 0;
   padding: 0;
@@ -299,11 +300,6 @@ p {
   margin-bottom: 8px;
 }
 
-#reprint-text {
-  font-size: 12px;
-  margin-bottom: 8px;
-}
-
 #arcticle-down-button {
   width: 300px;
 }
@@ -312,6 +308,7 @@ p {
   display: inline;
   vertical-align: middle;
 }
+
 /* start recommended-section style */
 
 .recommended-container {
@@ -328,6 +325,9 @@ p {
 
 .recommended-h3 {
   width: 285px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: black;
   margin: 0;
 }
 
@@ -343,16 +343,9 @@ p {
 .recommended-source {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 10px;
-  color: #888888;
+  color: #888;
   margin: 0;
   text-align: right;
-}
-
-.recommended-h3 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 16px;
-  color: black;
-  margin: 0;
 }
 
 .editors-pick-container {
@@ -374,7 +367,7 @@ p {
 }
 
 .most-popular-text {
-  border-top: #888888 1px solid;
+  border-top: #888 1px solid;
   padding-top: 8px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
@@ -387,6 +380,7 @@ p {
 }
 
 /* end recommended-section style */
+
 /* end body style */
 
 /* start footer style */
@@ -396,7 +390,7 @@ footer {
   width: 1330px;
   margin-left: auto;
   margin-right: auto;
-  border-top: 1px solid #888888;
+  border-top: 1px solid #888;
   border-top-style: double;
   padding-top: 15px;
   clear: both;
@@ -411,7 +405,6 @@ footer {
 }
 
 .navig-bottom-ul {
-  /*display: inline-block;*/
   margin: 0;
   padding: 0;
 }
@@ -454,8 +447,9 @@ ul {
   margin: 0;
   line-height: 40px;
 }
+
 #footer2-ul {
-  color: #666666;
+  color: #666;
 }
 
 #footer2 li {
@@ -467,7 +461,7 @@ ul {
   width: 1330px;
   margin-left: auto;
   margin-right: auto;
-  border-top: 1px solid #888888;
+  border-top: 1px solid #888;
   text-align: center;
   overflow: hidden;
   margin-bottom: 50px;
